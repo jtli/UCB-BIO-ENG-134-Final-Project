@@ -9,11 +9,11 @@ template pH.docx: The sheet of paper to be printed out. The pH strip goes onto t
 
 test.py: Outputs an image onto the raspberry PI, so the user can ensure that the camera and paper is positioned properly. The picture is outputed at "output.png" where the test.py is located.
 
-pH.py: Outputs the pH of the pH strip
+pH.py: Outputs the pH of the pH strip. A picture will be outputed at "output.png" where the pH.py is located, although it does NOT use this image
 
-pHNoReference.py: Outputs the pH of the pH strip without using a reference. (useful if the reference can't be obtained or there is a problem correctly getting the reference boxes right)
+pHNoReference.py: Outputs the pH of the pH strip without using a reference. (useful if the reference can't be obtained or there is a problem correctly getting the reference boxes right). A picture will be outputed at "output.png" where the pHNoReference.py is located, although it does NOT use this image
 
-glucose.py: Outputs the glucose level of the glucose strip
+glucose.py: Outputs the glucose level of the glucose strip. A picture will be outputed at "output.png" where the glucose.py is located, although it does NOT use this image
 
 example: How the paper should be set up
 
