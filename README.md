@@ -7,13 +7,14 @@ The code is more robust for slight rotations of the camera, such that the rectan
 
 template pH.docx: The sheet of paper to be printed out. The pH strip goes onto the skinnier box, and the reference goes into the fatter box.
 
-test.py: Outputs an image onto the raspberry PI, so the user can ensure that the camera and paper is positioned properly.
+test.py: Outputs an image onto the raspberry PI, so the user can ensure that the camera and paper is positioned properly. The picture is outputed at "output.png" where the test.py is located.
 
 pH.py: Outputs the pH of the pH strip
 
-pHNoReference.py: Outputs the pH of the pH strip without using a reference. (useful if the reference can't be obtained)
+pHNoReference.py: Outputs the pH of the pH strip without using a reference. (useful if the reference can't be obtained or there is a problem correctly getting the reference boxes right)
 
 glucose.py: Outputs the glucose level of the glucose strip
 
 example: How the paper should be set up
-setupExample.jpg: A crude, but cheap, setup of the camera and paper system
+
+setupExample.jpg: An example of a crude, but cheap, setup of the camera and paper system
